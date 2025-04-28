@@ -20,9 +20,9 @@ return {
 
         mason_tool_installer.setup({
             ensure_installed = {
-                "stylua",
-                "black",
-                "pylint",
+                -- "stylua",
+                -- "black",
+                -- "pylint",
             },
         })
     end,
