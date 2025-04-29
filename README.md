@@ -3,8 +3,3 @@ A collection of configurations for the different apps I use. These configuration
 - Client development systems, on bare metal.
 - Servers that are headless, which should only be connected to through SSH.
 - Containers, volatile by design, a temporary and isolated development environment with Git setup.
-
-
-## Dependencies:
-### Alacritty
-- Font family: HackNerdFontMono
