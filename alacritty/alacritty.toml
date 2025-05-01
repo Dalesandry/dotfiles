@@ -15,8 +15,9 @@ y = 5
 [cursor]
 style = { shape = "Block", blinking = "Off" }
 
-[env]
-TERM = "xterm-256color ssh"
+#[env]
+#TERM = "xterm-256color ssh"
+# On Fedora Server, adding "alacritty" to /etc/DIR_COLORS works.
 
 [font]
 size   = 13
