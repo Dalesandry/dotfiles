@@ -10,7 +10,7 @@ vt = 1
 # with whatever you want started, such as `sway`.
 
 # command = "agreety --cmd /bin/bash"
-command = "tuigreet --remember --asterisks --time --time-format \"%d-%B-%Y || %H:%M:%S\" --window-padding 2 --greeting \"Welcome to the World of Friendly Computing!\" --theme \"text=white;time=green;container=black;title=magenta;border=green;greet=cyan;prompt=green;input=white;action=green;button=cyan\" --cmd start-cosmic"
+command = "tuigreet --remember --asterisks --time --time-format \"%d-%B-%Y || %H:%M:%S\" --window-padding 2 --greeting \"Welcome to the World of Friendly Computing!\" --theme \"text=white;time=green;container=black;title=magenta;border=green;greet=cyan;prompt=green;input=white;action=green;button=cyan\" --cmd niri"
 # command = "sway --config /etc/greetd/sway-config"
 
 # The user to run the command as. The privileges this user must have depends
