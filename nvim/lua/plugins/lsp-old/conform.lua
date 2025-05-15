@@ -1,13 +1,14 @@
 return {
     "stevearc/conform.nvim",
     event = { "BufReadPre", "BufNewFile" },
-
     config = function()
-        local conform = require ("conform")
+        local conform = require("conform")
 
         conform.setup({
             formatter_by_ft = {
-                lua = { "stylua" },
+                -- markdown = { "prettier" },
+                   lua = { "stylua" },
+                -- python = { "black" },
             },
             format_on_save = {
                 lsp_fallback = true,
@@ -20,7 +21,7 @@ return {
             conform.format({
                 lsp_fallback = true,
                 async = true,
-                timeout_ms = 1000
+                timeout_ms = 1000,
             })
         end, { desc = "format file or range (in visual mode)" })
     end,

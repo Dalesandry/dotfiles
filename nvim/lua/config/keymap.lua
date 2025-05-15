@@ -32,7 +32,6 @@ vim.keymap.set("n", "<leader>gb", "<CMD>:Telescope buffers<CR>")
 vim.keymap.set("n", "<leader>gh", "<CMD>:Telescope help_tags<CR>")
 
 --[[
-
 -- keybinding from treesitter
 init_selection = "<leader>ss",
 node_incremental = "<leader>si",
@@ -40,8 +39,8 @@ scope_incremental = "<leader>sc",
 node_decremental = "<leader>sd",
 
 -- keybind from conform
-format = "<leader>tf"
+-- format = "<leader>tf"
 
 -- keybind from nvim-lint
-lint = "<leader>tl"
-]] --
+-- lint = "<leader>tl"
+--]]

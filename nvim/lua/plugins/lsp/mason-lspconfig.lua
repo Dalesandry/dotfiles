@@ -1,12 +1,17 @@
 return {
-    "williamboman/mason-lspconfig.nvim",
-    dependencies = { "mason.nvim" },
+    "mason-org/mason-lspconfig.nvim",
+    dependencies = {
+        "mason-org/mason.nvim",
+        "neovim/nvim-lspconfig",
+    },
+
     config = function()
-        require("mason-lspconfig").setup()
-        require("mason-lspconfig").setup_handlers({
-            function(server_name)
-                require("lspconfig")[server_name].setup({})
-            end,
+        local mason_lspconfig = require("mason-lspconfig")
+
+        mason_lspconfig.setup({
+            ensure_installed = {
+                "lua_ls"
+            }
         })
     end,
 }

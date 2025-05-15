@@ -1,12 +1,8 @@
 return {
-    "williamboman/mason.nvim",
-    dependencies = {
-        "WhoIsSethDaniel/mason-tool-installer.nvim",
-    },
+    "mason-org/mason.nvim",
+
     config = function()
         local mason = require("mason")
-
-        local mason_tool_installer = require("mason-tool-installer")
 
         mason.setup({
             ui = {
@@ -16,14 +12,6 @@ return {
                     package_uninstalled = "✗",
                 }
             }
-        })
-
-        mason_tool_installer.setup({
-            ensure_installed = {
-                -- "stylua",
-                -- "black",
-                -- "pylint",
-            },
         })
     end,
 }
