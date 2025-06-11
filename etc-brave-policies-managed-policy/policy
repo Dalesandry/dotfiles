@@ -1,0 +1,13 @@
+{
+    "AutoplayAllowed": false,
+    "BraveAIChatEnabled": false,
+    "BraveRewardsDisabled": true,
+    "BraveVPNDisabled": true,
+    "BraveWalletDisabled": true,
+    "FeedbackSurveysEnabled": false,
+    "PasswordManagerEnabled": false,
+    "PasswordManagerPasskeysEnabled": false,
+    "PasswordSharingEnabled": false,
+    "TorDisabled": true,
+}
+
